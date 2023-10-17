@@ -1,0 +1,113 @@
+
+/* This is the CSS Styling section for the overall document */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: black;
+    text-align: right;
+    padding-right: 80px;
+    font-weight: bold;
+    
+}
+
+.container {
+    display: flex; /* Enables flexbox layout */
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+.column1 {
+    width: 15%; /* Sets the width of the first column to 30% of the parent container */
+    height: 100%; /* Set the height of the first column */
+    background-color: #F3F3EE;
+    position: fixed;
+    
+}
+
+.column2 {
+    flex-basis: 100%; /* Sets the width of the second column to 70% of the parent container */
+    height: 100%; /* Set the height of the first column */
+    margin-left: 15%;
+}
+    
+/* This is the CSS Styling section for column1 */
+
+
+.column1 h2 {
+    color: black;
+    font-size: 20px;
+    padding: 40px 30px 20px 30px;
+}
+
+
+.column1 p {
+    color: black;
+}
+
+.column1 a{
+    color: #003862;
+    text-decoration: none;
+}
+
+.column1 a:hover{
+    color: #003862;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    color: #003862;
+    line-height: 3; /* Adds spacing between text rows */
+    padding-left: 30px;
+}
+
+/* This is the CSS Styling section for column2 */
+
+
+.column2 h2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+
+
+
+#sign-up-button {
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+    background-color: #003862;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    max-width: 160px; /* Adjust the value to set the maximum width of the button */
+}
+
+/* This is the CSS Styling section for the footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+
+
